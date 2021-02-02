@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Harbor API
-  description: These APIs provide services for manipulating Harbor project.
+  title: Nubix Registry API
+  description: These APIs provide services for manipulating the Nubix Registry.
   version: '2.0'
 host: localhost
 schemes:

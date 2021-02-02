@@ -1,14 +1,14 @@
 {
   "headerBgColor": "",
-  "headerLogo": "",
+  "headerLogo": "Nubix_logo.png",
   "loginBgImg": "",
-  "appTitle": "",
+  "appTitle": "Nubix Application and Container Registry",
   "product": {
-    "name": "",
+    "name": "Nubix Registry",
     "introduction": {
       "zh-cn": "",
       "es-es": "",
-      "en-us": ""
+      "en-us": "Nubix Application and Container Registry is used to store Nubix application and container images that are installed and run on IOT devices enabled with Nubix firmware."
     }
   }
 }

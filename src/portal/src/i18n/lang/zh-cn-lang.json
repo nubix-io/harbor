@@ -176,8 +176,8 @@
         "LOGS": "日志",
         "TASKS": "任务",
         "API_EXPLORER": "API控制中心",
-        "HARBOR_API_MANAGEMENT": "Harbor API V2.0",
-        "HELM_API_MANAGEMENT": "Harbor Api",
+        "HARBOR_API_MANAGEMENT": "Nubix Registry API V2.0",
+        "HELM_API_MANAGEMENT": "Nubix Registry API",
         "DISTRIBUTIONS": {
             "NAME": "分布式分发",
             "INSTANCES": "实例"
