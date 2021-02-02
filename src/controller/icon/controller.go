@@ -19,6 +19,7 @@ import (
 	"context"
 	"encoding/base64"
 	"image"
+
 	// import the gif format
 	_ "image/gif"
 	// import the jpeg format
@@ -38,10 +39,11 @@ import (
 
 var (
 	builtInIcons = map[string]string{
-		icon.DigestOfIconImage:   "./icons/image.png",
-		icon.DigestOfIconChart:   "./icons/chart.png",
-		icon.DigestOfIconCNAB:    "./icons/cnab.png",
-		icon.DigestOfIconDefault: "./icons/default.png",
+		icon.DigestOfIconImage:    "./icons/image.png",
+		icon.DigestOfIconChart:    "./icons/chart.png",
+		icon.DigestOfIconCNAB:     "./icons/cnab.png",
+		icon.DigestOfIconNubixApp: "./icons/nubix_app.png",
+		icon.DigestOfIconDefault:  "./icons/default.png",
 	}
 	// Ctl is a global icon controller instance
 	Ctl = NewController()
