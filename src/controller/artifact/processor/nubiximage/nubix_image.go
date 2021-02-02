@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package nubixapp
+package nubiximage
 
 import (
 	"context"
@@ -25,8 +25,8 @@ import (
 
 // const definitions
 const (
-	ArtifactTypeNubixApp = "NUBIX_APP"
-	mediaType            = "application/vnd.nubix.app.config.v1+json"
+	ArtifactTypeNubixImage = "NUBIX_IMAGE"
+	mediaType              = "application/vnd.nubix.image.config.v1+json"
 )
 
 func init() {
@@ -57,7 +57,7 @@ func (p *processor) AbstractAddition(ctx context.Context, artifact *artifact.Art
 }
 
 func (p *processor) GetArtifactType(ctx context.Context, artifact *artifact.Artifact) string {
-	return ArtifactTypeNubixApp
+	return ArtifactTypeNubixImage
 }
 
 func (p *processor) ListAdditionTypes(ctx context.Context, artifact *artifact.Artifact) []string {

@@ -39,11 +39,12 @@ import (
 
 var (
 	builtInIcons = map[string]string{
-		icon.DigestOfIconImage:    "./icons/image.png",
-		icon.DigestOfIconChart:    "./icons/chart.png",
-		icon.DigestOfIconCNAB:     "./icons/cnab.png",
-		icon.DigestOfIconNubixApp: "./icons/nubix_app.png",
-		icon.DigestOfIconDefault:  "./icons/default.png",
+		icon.DigestOfIconImage:      "./icons/image.png",
+		icon.DigestOfIconChart:      "./icons/chart.png",
+		icon.DigestOfIconCNAB:       "./icons/cnab.png",
+		icon.DigestOfIconNubixApp:   "./icons/nubix_app.png",
+		icon.DigestOfIconNubixImage: "./icons/nubix_image.png",
+		icon.DigestOfIconDefault:    "./icons/default.png",
 	}
 	// Ctl is a global icon controller instance
 	Ctl = NewController()

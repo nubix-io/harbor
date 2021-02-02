@@ -26,6 +26,8 @@ import (
 	"github.com/goharbor/harbor/src/controller/artifact/processor/cnab"
 	"github.com/goharbor/harbor/src/controller/artifact/processor/image"
 	"github.com/goharbor/harbor/src/controller/artifact/processor/nubixapp"
+	"github.com/goharbor/harbor/src/controller/artifact/processor/nubiximage"
+
 	"github.com/goharbor/harbor/src/lib/icon"
 
 	"github.com/goharbor/harbor/src/controller/artifact/processor"
@@ -66,10 +68,11 @@ var (
 
 	// icon digests for each known type
 	defaultIcons = map[string]string{
-		image.ArtifactTypeImage:       icon.DigestOfIconImage,
-		chart.ArtifactTypeChart:       icon.DigestOfIconChart,
-		cnab.ArtifactTypeCNAB:         icon.DigestOfIconCNAB,
-		nubixapp.ArtifactTypeNubixApp: icon.DigestOfIconNubixApp,
+		image.ArtifactTypeImage:           icon.DigestOfIconImage,
+		chart.ArtifactTypeChart:           icon.DigestOfIconChart,
+		cnab.ArtifactTypeCNAB:             icon.DigestOfIconCNAB,
+		nubixapp.ArtifactTypeNubixApp:     icon.DigestOfIconNubixApp,
+		nubiximage.ArtifactTypeNubixImage: icon.DigestOfIconNubixImage,
 	}
 )
 
